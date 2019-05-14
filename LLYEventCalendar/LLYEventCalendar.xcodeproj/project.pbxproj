@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033E79DA228A525B00FA24BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79D9228A525B00FA24BE /* AppDelegate.m */; };
+		033E79DD228A525B00FA24BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79DC228A525B00FA24BE /* ViewController.m */; };
+		033E79E0228A525B00FA24BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E79DE228A525B00FA24BE /* Main.storyboard */; };
+		033E79E2228A525D00FA24BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E79E1228A525D00FA24BE /* Assets.xcassets */; };
+		033E79E5228A525D00FA24BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E79E3228A525D00FA24BE /* LaunchScreen.storyboard */; };
+		033E79E8228A525D00FA24BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79E7228A525D00FA24BE /* main.m */; };
+		033E79F2228A525D00FA24BE /* LLYEventCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79F1228A525D00FA24BE /* LLYEventCalendarTests.m */; };
+		033E79FD228A525D00FA24BE /* LLYEventCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79FC228A525D00FA24BE /* LLYEventCalendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		033E79EE228A525D00FA24BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033E79CD228A525B00FA24BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033E79D4228A525B00FA24BE;
+			remoteInfo = LLYEventCalendar;
+		};
+		033E79F9228A525D00FA24BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033E79CD228A525B00FA24BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033E79D4228A525B00FA24BE;
+			remoteInfo = LLYEventCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033E79D5228A525B00FA24BE /* LLYEventCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYEventCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E79D8228A525B00FA24BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		033E79D9228A525B00FA24BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		033E79DB228A525B00FA24BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		033E79DC228A525B00FA24BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		033E79DF228A525B00FA24BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		033E79E1228A525D00FA24BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		033E79E4228A525D00FA24BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		033E79E6228A525D00FA24BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033E79E7228A525D00FA24BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033E79ED228A525D00FA24BE /* LLYEventCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYEventCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E79F1228A525D00FA24BE /* LLYEventCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYEventCalendarTests.m; sourceTree = "<group>"; };
+		033E79F3228A525D00FA24BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033E79F8228A525D00FA24BE /* LLYEventCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYEventCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033E79FC228A525D00FA24BE /* LLYEventCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYEventCalendarUITests.m; sourceTree = "<group>"; };
+		033E79FE228A525D00FA24BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033E79D2228A525B00FA24BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E79EA228A525D00FA24BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E79F5228A525D00FA24BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033E79CC228A525B00FA24BE = {
+			isa = PBXGroup;
+			children = (
+				033E79D7228A525B00FA24BE /* LLYEventCalendar */,
+				033E79F0228A525D00FA24BE /* LLYEventCalendarTests */,
+				033E79FB228A525D00FA24BE /* LLYEventCalendarUITests */,
+				033E79D6228A525B00FA24BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033E79D6228A525B00FA24BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033E79D5228A525B00FA24BE /* LLYEventCalendar.app */,
+				033E79ED228A525D00FA24BE /* LLYEventCalendarTests.xctest */,
+				033E79F8228A525D00FA24BE /* LLYEventCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033E79D7228A525B00FA24BE /* LLYEventCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				033E79D8228A525B00FA24BE /* AppDelegate.h */,
+				033E79D9228A525B00FA24BE /* AppDelegate.m */,
+				033E79DB228A525B00FA24BE /* ViewController.h */,
+				033E79DC228A525B00FA24BE /* ViewController.m */,
+				033E79DE228A525B00FA24BE /* Main.storyboard */,
+				033E79E1228A525D00FA24BE /* Assets.xcassets */,
+				033E79E3228A525D00FA24BE /* LaunchScreen.storyboard */,
+				033E79E6228A525D00FA24BE /* Info.plist */,
+				033E79E7228A525D00FA24BE /* main.m */,
+			);
+			path = LLYEventCalendar;
+			sourceTree = "<group>";
+		};
+		033E79F0228A525D00FA24BE /* LLYEventCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				033E79F1228A525D00FA24BE /* LLYEventCalendarTests.m */,
+				033E79F3228A525D00FA24BE /* Info.plist */,
+			);
+			path = LLYEventCalendarTests;
+			sourceTree = "<group>";
+		};
+		033E79FB228A525D00FA24BE /* LLYEventCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				033E79FC228A525D00FA24BE /* LLYEventCalendarUITests.m */,
+				033E79FE228A525D00FA24BE /* Info.plist */,
+			);
+			path = LLYEventCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033E79D4228A525B00FA24BE /* LLYEventCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033E7A01228A525D00FA24BE /* Build configuration list for PBXNativeTarget "LLYEventCalendar" */;
+			buildPhases = (
+				033E79D1228A525B00FA24BE /* Sources */,
+				033E79D2228A525B00FA24BE /* Frameworks */,
+				033E79D3228A525B00FA24BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLYEventCalendar;
+			productName = LLYEventCalendar;
+			productReference = 033E79D5228A525B00FA24BE /* LLYEventCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		033E79EC228A525D00FA24BE /* LLYEventCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033E7A04228A525D00FA24BE /* Build configuration list for PBXNativeTarget "LLYEventCalendarTests" */;
+			buildPhases = (
+				033E79E9228A525D00FA24BE /* Sources */,
+				033E79EA228A525D00FA24BE /* Frameworks */,
+				033E79EB228A525D00FA24BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033E79EF228A525D00FA24BE /* PBXTargetDependency */,
+			);
+			name = LLYEventCalendarTests;
+			productName = LLYEventCalendarTests;
+			productReference = 033E79ED228A525D00FA24BE /* LLYEventCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		033E79F7228A525D00FA24BE /* LLYEventCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033E7A07228A525D00FA24BE /* Build configuration list for PBXNativeTarget "LLYEventCalendarUITests" */;
+			buildPhases = (
+				033E79F4228A525D00FA24BE /* Sources */,
+				033E79F5228A525D00FA24BE /* Frameworks */,
+				033E79F6228A525D00FA24BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033E79FA228A525D00FA24BE /* PBXTargetDependency */,
+			);
+			name = LLYEventCalendarUITests;
+			productName = LLYEventCalendarUITests;
+			productReference = 033E79F8228A525D00FA24BE /* LLYEventCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033E79CD228A525B00FA24BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SK.com;
+				TargetAttributes = {
+					033E79D4228A525B00FA24BE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					033E79EC228A525D00FA24BE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 033E79D4228A525B00FA24BE;
+					};
+					033E79F7228A525D00FA24BE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 033E79D4228A525B00FA24BE;
+					};
+				};
+			};
+			buildConfigurationList = 033E79D0228A525B00FA24BE /* Build configuration list for PBXProject "LLYEventCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033E79CC228A525B00FA24BE;
+			productRefGroup = 033E79D6228A525B00FA24BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033E79D4228A525B00FA24BE /* LLYEventCalendar */,
+				033E79EC228A525D00FA24BE /* LLYEventCalendarTests */,
+				033E79F7228A525D00FA24BE /* LLYEventCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033E79D3228A525B00FA24BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E79E5228A525D00FA24BE /* LaunchScreen.storyboard in Resources */,
+				033E79E2228A525D00FA24BE /* Assets.xcassets in Resources */,
+				033E79E0228A525B00FA24BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E79EB228A525D00FA24BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E79F6228A525D00FA24BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033E79D1228A525B00FA24BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E79DD228A525B00FA24BE /* ViewController.m in Sources */,
+				033E79E8228A525D00FA24BE /* main.m in Sources */,
+				033E79DA228A525B00FA24BE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E79E9228A525D00FA24BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E79F2228A525D00FA24BE /* LLYEventCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033E79F4228A525D00FA24BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033E79FD228A525D00FA24BE /* LLYEventCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033E79EF228A525D00FA24BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033E79D4228A525B00FA24BE /* LLYEventCalendar */;
+			targetProxy = 033E79EE228A525D00FA24BE /* PBXContainerItemProxy */;
+		};
+		033E79FA228A525D00FA24BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033E79D4228A525B00FA24BE /* LLYEventCalendar */;
+			targetProxy = 033E79F9228A525D00FA24BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		033E79DE228A525B00FA24BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033E79DF228A525B00FA24BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		033E79E3228A525D00FA24BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033E79E4228A525D00FA24BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033E79FF228A525D00FA24BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		033E7A00228A525D00FA24BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033E7A02228A525D00FA24BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS6A9F9W5R;
+				INFOPLIST_FILE = LLYEventCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		033E7A03228A525D00FA24BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS6A9F9W5R;
+				INFOPLIST_FILE = LLYEventCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		033E7A05228A525D00FA24BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS6A9F9W5R;
+				INFOPLIST_FILE = LLYEventCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLYEventCalendar.app/LLYEventCalendar";
+			};
+			name = Debug;
+		};
+		033E7A06228A525D00FA24BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS6A9F9W5R;
+				INFOPLIST_FILE = LLYEventCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLYEventCalendar.app/LLYEventCalendar";
+			};
+			name = Release;
+		};
+		033E7A08228A525D00FA24BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS6A9F9W5R;
+				INFOPLIST_FILE = LLYEventCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLYEventCalendar;
+			};
+			name = Debug;
+		};
+		033E7A09228A525D00FA24BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TS6A9F9W5R;
+				INFOPLIST_FILE = LLYEventCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLYEventCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033E79D0228A525B00FA24BE /* Build configuration list for PBXProject "LLYEventCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E79FF228A525D00FA24BE /* Debug */,
+				033E7A00228A525D00FA24BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033E7A01228A525D00FA24BE /* Build configuration list for PBXNativeTarget "LLYEventCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E7A02228A525D00FA24BE /* Debug */,
+				033E7A03228A525D00FA24BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033E7A04228A525D00FA24BE /* Build configuration list for PBXNativeTarget "LLYEventCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E7A05228A525D00FA24BE /* Debug */,
+				033E7A06228A525D00FA24BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033E7A07228A525D00FA24BE /* Build configuration list for PBXNativeTarget "LLYEventCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033E7A08228A525D00FA24BE /* Debug */,
+				033E7A09228A525D00FA24BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033E79CD228A525B00FA24BE /* Project object */;
+}
