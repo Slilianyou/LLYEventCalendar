@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		033E79DA228A525B00FA24BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79D9228A525B00FA24BE /* AppDelegate.m */; };
-		033E79DD228A525B00FA24BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79DC228A525B00FA24BE /* ViewController.m */; };
-		033E79E0228A525B00FA24BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E79DE228A525B00FA24BE /* Main.storyboard */; };
 		033E79E2228A525D00FA24BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E79E1228A525D00FA24BE /* Assets.xcassets */; };
 		033E79E5228A525D00FA24BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E79E3228A525D00FA24BE /* LaunchScreen.storyboard */; };
 		033E79E8228A525D00FA24BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79E7228A525D00FA24BE /* main.m */; };
 		033E79F2228A525D00FA24BE /* LLYEventCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79F1228A525D00FA24BE /* LLYEventCalendarTests.m */; };
 		033E79FD228A525D00FA24BE /* LLYEventCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E79FC228A525D00FA24BE /* LLYEventCalendarUITests.m */; };
+		033E7A18228AA83500FA24BE /* EventCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 033E7A17228AA83500FA24BE /* EventCalendar.m */; };
+		033E7A1B228AA89D00FA24BE /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033E7A1A228AA89D00FA24BE /* EventKit.framework */; };
+		034C05B7228ABA30001561ED /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C05B6228ABA30001561ED /* MainViewController.m */; };
+		034C05BA228ABA4D001561ED /* CreateEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C05B9228ABA4D001561ED /* CreateEventViewController.m */; };
+		034C05BE228ABAFD001561ED /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C05BD228ABAFD001561ED /* EventTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +41,6 @@
 		033E79D5228A525B00FA24BE /* LLYEventCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYEventCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		033E79D8228A525B00FA24BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		033E79D9228A525B00FA24BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		033E79DB228A525B00FA24BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		033E79DC228A525B00FA24BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		033E79DF228A525B00FA24BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		033E79E1228A525D00FA24BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		033E79E4228A525D00FA24BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		033E79E6228A525D00FA24BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,15 @@
 		033E79F8228A525D00FA24BE /* LLYEventCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLYEventCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033E79FC228A525D00FA24BE /* LLYEventCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLYEventCalendarUITests.m; sourceTree = "<group>"; };
 		033E79FE228A525D00FA24BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033E7A16228AA83500FA24BE /* EventCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventCalendar.h; sourceTree = "<group>"; };
+		033E7A17228AA83500FA24BE /* EventCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventCalendar.m; sourceTree = "<group>"; };
+		033E7A1A228AA89D00FA24BE /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		034C05B5228ABA30001561ED /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		034C05B6228ABA30001561ED /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		034C05B8228ABA4D001561ED /* CreateEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateEventViewController.h; sourceTree = "<group>"; };
+		034C05B9228ABA4D001561ED /* CreateEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateEventViewController.m; sourceTree = "<group>"; };
+		034C05BC228ABAFD001561ED /* EventTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		034C05BD228ABAFD001561ED /* EventTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033E7A1B228AA89D00FA24BE /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,7 @@
 				033E79F0228A525D00FA24BE /* LLYEventCalendarTests */,
 				033E79FB228A525D00FA24BE /* LLYEventCalendarUITests */,
 				033E79D6228A525B00FA24BE /* Products */,
+				033E7A19228AA89D00FA24BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +112,14 @@
 		033E79D7228A525B00FA24BE /* LLYEventCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				034C05BB228ABADF001561ED /* View */,
+				033E7A15228AA7C300FA24BE /* New Group */,
 				033E79D8228A525B00FA24BE /* AppDelegate.h */,
 				033E79D9228A525B00FA24BE /* AppDelegate.m */,
-				033E79DB228A525B00FA24BE /* ViewController.h */,
-				033E79DC228A525B00FA24BE /* ViewController.m */,
-				033E79DE228A525B00FA24BE /* Main.storyboard */,
+				034C05B8228ABA4D001561ED /* CreateEventViewController.h */,
+				034C05B9228ABA4D001561ED /* CreateEventViewController.m */,
+				034C05B5228ABA30001561ED /* MainViewController.h */,
+				034C05B6228ABA30001561ED /* MainViewController.m */,
 				033E79E1228A525D00FA24BE /* Assets.xcassets */,
 				033E79E3228A525D00FA24BE /* LaunchScreen.storyboard */,
 				033E79E6228A525D00FA24BE /* Info.plist */,
@@ -130,6 +144,32 @@
 				033E79FE228A525D00FA24BE /* Info.plist */,
 			);
 			path = LLYEventCalendarUITests;
+			sourceTree = "<group>";
+		};
+		033E7A15228AA7C300FA24BE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				033E7A16228AA83500FA24BE /* EventCalendar.h */,
+				033E7A17228AA83500FA24BE /* EventCalendar.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		033E7A19228AA89D00FA24BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033E7A1A228AA89D00FA24BE /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034C05BB228ABADF001561ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				034C05BC228ABAFD001561ED /* EventTableViewCell.h */,
+				034C05BD228ABAFD001561ED /* EventTableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +277,6 @@
 			files = (
 				033E79E5228A525D00FA24BE /* LaunchScreen.storyboard in Resources */,
 				033E79E2228A525D00FA24BE /* Assets.xcassets in Resources */,
-				033E79E0228A525B00FA24BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				033E79DD228A525B00FA24BE /* ViewController.m in Sources */,
+				034C05BA228ABA4D001561ED /* CreateEventViewController.m in Sources */,
 				033E79E8228A525D00FA24BE /* main.m in Sources */,
+				034C05BE228ABAFD001561ED /* EventTableViewCell.m in Sources */,
+				033E7A18228AA83500FA24BE /* EventCalendar.m in Sources */,
+				034C05B7228ABA30001561ED /* MainViewController.m in Sources */,
 				033E79DA228A525B00FA24BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		033E79DE228A525B00FA24BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				033E79DF228A525B00FA24BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		033E79E3228A525D00FA24BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,13 +472,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TS6A9F9W5R;
 				INFOPLIST_FILE = LLYEventCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,13 +490,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TS6A9F9W5R;
 				INFOPLIST_FILE = LLYEventCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShenYang.Base.LLYEventCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
